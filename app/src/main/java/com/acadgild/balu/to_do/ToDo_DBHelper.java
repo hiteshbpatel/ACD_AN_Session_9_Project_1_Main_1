@@ -71,7 +71,7 @@ public class ToDo_DBHelper extends SQLiteOpenHelper
         Cursor cursor = db.query(TABLE_TODO, COLUMNS_TODO, COL_ID + " =?",
                         new String[] {String.valueOf(id)}, null, null, null, null);
         ToDo toDo = null;
-        if (cursor != null)
+        if ((cursor != null) && (cursor.getCount()>0))
         {
             cursor.moveToFirst();
             toDo = new ToDo();

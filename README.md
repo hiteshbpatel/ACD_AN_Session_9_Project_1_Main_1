@@ -1,2 +1,0 @@
-# ACD_AN_Session_9_Project_1_Main_1
-ACD_AN_Session_9_Project_1_Main_1
